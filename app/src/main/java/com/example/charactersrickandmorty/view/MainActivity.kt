@@ -1,7 +1,8 @@
-package com.example.charactersrickandmorty
+package com.example.charactersrickandmorty.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.charactersrickandmorty.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
