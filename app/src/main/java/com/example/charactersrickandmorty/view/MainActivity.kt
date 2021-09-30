@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var viewModel: CharactersViewModel
     
     private val list = mutableListOf<Characters>()
-    private val adapter = CharactersAdapater(list)
+    private val adapter = CharactersAdapter(list)
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         viewModel.getCharacters()
         
         viewModel.charactersResult.observe(this, Observer{
-            adapter.updateList(it.results)
+            adapter.updateList(it.results as MutableList<Characters>)
         })
     }
 }

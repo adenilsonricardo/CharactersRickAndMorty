@@ -9,9 +9,9 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 
-class CharactersViewModel:ViewModel() {
+class CharactersViewModel: ViewModel() {
     val disposable = CompositeDisposable()
-    val charactersResult: MutableList<CharactersResponse> = MutableLiveData()
+    val charactersResult: MutableLiveData<CharactersResponse> = MutableLiveData()
     private val error: MutableLiveData<String> = MutableLiveData()
 
     fun getCharacters(){
