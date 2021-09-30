@@ -23,7 +23,6 @@ class CharactersViewModel:ViewModel() {
                     charactersResult.value = it
                 },{ e ->
                     error.value = e.message
-
                 })
         )
     }
