@@ -18,14 +18,14 @@ Desenvolver um aplicativo com uma requisição simples (sem a necessidade de um 
 
 ## Descritivo do Projeto
 
-1- Configurações iniciais do Projeto
-2- Definindo o Layout
-3- Arquitetura MVVM
-4- Definindo o Retrofit
-5- API
-6- CharactersViewModel
-7- Characters Adapter
-8- Enable Networking
+#### 1 - Configurações iniciais do Projeto
+#### 2 - Definindo o Layout
+#### 3 - Arquitetura MVVM
+#### 4 - Definindo o Retrofit
+#### 5 - API
+#### 6 - CharactersViewModel
+#### 7 - Characters Adapter
+#### 8 - Enable Networking
 
 ``
 
